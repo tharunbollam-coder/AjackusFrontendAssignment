@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Employee Directory</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Employee Directory</h1>
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search by name or email..."
+      />
+      <button onclick="window.location.href='form.html'">Add Employee</button>
+      <button id="filter-toggle">Filter</button>
+    </header>
+
+    <div id="filter-container" class="hidden">
+      <select id="filter-department">
+        <option value="">All Departments</option>
+        <option value="HR">HR</option>
+        <option value="IT">IT</option>
+        <option value="Sales">Sales</option>
+      </select>
+      <select id="filter-role">
+        <option value="">All Roles</option>
+        <option value="Manager">Manager</option>
+        <option value="Developer">Developer</option>
+        <option value="Executive">Executive</option>
+      </select>
+      <button id="apply-filters">Apply Filters</button>
+    </div>
+
+    <main id="employee-list-container"></main>
+    <div id="pagination"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
