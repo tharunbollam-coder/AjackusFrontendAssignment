@@ -18,7 +18,7 @@ A fully responsive and interactive Employee Directory web app built using **HTML
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots
 
 ![alt text](<Screenshot 2025-07-11 204801.png>)
 ![alt text](<Screenshot 2025-07-11 205326.png>)
